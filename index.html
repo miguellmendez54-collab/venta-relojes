@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tienda de Relojes</title>
+    <style>
+        body {
+            font-family: Arial;
+            text-align: center;
+            background-color: #f2f2f2;
+        }
+        .card {
+            background: white;
+            padding: 20px;
+            margin: 20px;
+            display: inline-block;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px gray;
+        }
+        img {
+            width: 200px;
+        }
+        button {
+            background: black;
+            color: white;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background: red;
+        }
+    </style>
+</head>
+<body>
+
+<h1>⌚ Bienvenido a mi Tienda de Relojes</h1>
+
+<div class="card">
+    <img src="https://via.placeholder.com/200" alt="Reloj">
+    <h2>Reloj Elegante</h2>
+    <p>Precio: $120</p>
+    <button onclick="comprar()">Comprar</button>
+</div>
+
+<script>
+function comprar() {
+    alert("Gracias por tu compra 😎");
+}
+</script>
+
+</body>
+</html>
